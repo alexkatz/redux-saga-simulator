@@ -1,5 +1,0 @@
-build/*
-public/*
-*.d.ts
-src/serviceWorker.ts
-babel-plugin-macros.config.js
