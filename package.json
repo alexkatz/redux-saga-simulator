@@ -1,0 +1,22 @@
+{
+  "name": "redux-saga-simulator",
+  "version": "0.1.0",
+  "description": "A lightweight and Typescript-friendly redux-saga integration testing utility",
+  "main": "dist/sagaSim.js",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -r dist"
+  },
+  "devDependencies": {
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.9.3"
+  }
+}
